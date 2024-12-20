@@ -324,7 +324,6 @@ h2 {
 .icon {
     display: flex;
     align-items: center;
-    height: 64px;
     margin-bottom: 40px;
 }
 .icon-2 {
@@ -501,7 +500,6 @@ h3 {
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 13px;
     grid-row-gap: 13px;
-    justify-content: center;
     padding: 40px 0 50px 0;
     }
     
