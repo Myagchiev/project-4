@@ -2,9 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
     <title>Document</title>
 </head>
@@ -15,17 +16,29 @@
         </div>
         <div class="container">
             <div id="home" class="home">
-                <div class="header">
-                    <ul>
-                        <li><a href="#"><img id="logo" src="./home/logo.png" alt="логотип"></a></li>
-                        <li><a href="#home">Главное</a></li>
-                        <li><a href="#labor">Про гида</a></li>
-                        <li><a href="#offer">Программа труда</a></li>
-                        <li><a href="#popular">Стоимость</a></li>
-                        <li><a href="#blog">Блог</a></li>
-                        <li><a href="#footer">Контакты</a></li>
-                        <li><button class="home-btn">Консультация</button></li>
+                <div class="navbar">
+                    <div><img id="logo" src="./home/Group 19 1.svg" alt="логотип"></div>
+                    <div class="header">
+                        <ul class="bar">
+                            <li><a href="#home">Главное</a></li>
+                            <li><a href="#labor">Про гида</a></li>
+                            <li><a href="#offer">Программа труда</a></li>
+                            <li><a href="#popular">Стоимость</a></li>
+                            <li><a href="#blog">Блог</a></li>
+                            <li><a href="#footer">Контакты</a></li>
+                            <li><button class="home-btn">Консультация</button></li>
+                        </ul>
+                    </div>
+                    <ul id="nav" class="nav">
+                        <li>&gt;&emsp;<a href="#labor">Про гида</a></li>
+                        <li>&gt;&emsp;<a href="#offer">Программа труда</a></li>
+                        <li>&gt;&emsp;<a href="#popular">Стоимость</a></li>
+                        <li>&gt;&emsp;<a href="#blog">Блог</a></li>
+                        <li>&gt;&emsp;<a href="#footer">Контакты</a></li>
                     </ul>
+                    <div id="nav-btn" class="nav-button">
+                        <img id="nav-btn-img" src="./home/nav-open.svg" alt="nav">
+                    </div>
                 </div>
                 <div class="home-title">
                     <h1>Насладись прогулкой в горах с командой единомышленников</h1>
@@ -45,6 +58,7 @@
                         </select>
                         <button class="find-btn">Найти Программу</button>
                     </div>
+                    <button id="find-btn">Найти Программу</button>
                 </div>
             </div>
         </div>
@@ -259,21 +273,21 @@
                         <div class="last-one">
                             <ul> 
                                 <li>Наши услуги</li>
-                                <li>&gt; Прогулки в горы летом</li>
-                                <li>&gt; Зимние походы в горы</li>
-                                <li>&gt; Посещение храмов в горах</li>
-                                <li>&gt; Экстремальные виды туризма</li>
-                                <li>&gt; Походы в джунглях Амазонии</li>
-                                <li>&gt; Поездка в Африку</li>
+                                <li>&gt;&emsp;Прогулки в горы летом</li>
+                                <li>&gt;&emsp;Зимние походы в горы</li>
+                                <li>&gt;&emsp;Посещение храмов в горах</li>
+                                <li>&gt;&emsp;Экстремальные виды туризма</li>
+                                <li>&gt;&emsp;Походы в джунглях Амазонии</li>
+                                <li>&gt;&emsp;Поездка в Африку</li>
                             </ul>
                         </div>
                         <div>
                             <ul> 
                                 <li>Важно для путешествий</li>
-                                <li>&gt; Как собрать в долгий поход?</li>
-                                <li>&gt; Жизненно важные предметы для похода</li>
-                                <li>&gt; Медицинская страховка, гарантии безопасности</li>
-                                <li>&gt; Если вы врач - загляните сюда</li>
+                                <li>&gt;&emsp;Как собрать в долгий поход?</li>
+                                <li>&gt;&emsp;Жизненно важные предметы для похода</li>
+                                <li>&gt;&emsp;Медицинская страховка, гарантии безопасности</li>
+                                <li>&gt;&emsp;Если вы врач - загляните сюда</li>
                             </ul>
                         </div>
                     </div>
@@ -289,5 +303,6 @@
             </div>
         </div>
     </footer>
+    <script src="./main.js"></script>
 </body>
 </html>
