@@ -206,6 +206,7 @@ h1 {
             grid-row-gap: 0px;
             padding: 0px;
             margin: 32px 0px;
+            overflow: scroll;
             }
             
             .box1 { grid-area: 2 / 1 / 3 / 2; }
@@ -269,12 +270,99 @@ h1 {
         grid-template-rows: 1fr;
         grid-column-gap: 10px;
         grid-row-gap: 0px;
+        overflow: scroll;
+        }
+
+        .parent div img {
+            object-fit: cover;
+            width: 280px;
+            height: 250px;
+            border-radius: 6px;
         }
         
+        .photo0 { grid-area: 1 / 1 / 2 / 7; }
         .photo1 { grid-area: 1 / 1 / 2 / 2; }
         .photo2 { grid-area: 1 / 2 / 2 / 3; }
         .photo3 { grid-area: 1 / 3 / 2 / 4; }
         .photo4 { grid-area: 1 / 4 / 2 / 5; }
         .photo5 { grid-area: 1 / 5 / 2 / 6; }
         .photo6 { grid-area: 1 / 6 / 2 / 7; }
+
+        .mail {
+            height: 351px;
+            width: 358px;
+            display: flex;
+            flex-direction: column;
+            position: static;
+            padding: 10px;
+            margin: 0px 16px;
+        }
+
+        .mail-div {
+            margin-left: 0px;
+            margin-top: 0px;
+        }
+
+        .form {
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            gap: 16px;
+    
+        }
+
+        .theme {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+        }
+
+        h4 {
+            width: 100%;
+        }
+
+        .small-text {
+            padding-top: 50px;
+            width: 358px;
+        }
+
+        .links {
+            padding: 0px 0px 0px 16px;
+            color: white;
+            height: 100%;
+        }
+
+        .foot-text {
+            width: 358px;
+            padding-bottom: 30px;
+        }
+
+        .links > div div {
+            margin-top: 50px;
+        }
+
+        .links > div div > div {
+            margin-top: 0px;
+        }
+
+        .links > div {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .links > div:last-child {
+            padding-bottom: 80px;
+        }
+
+        footer {
+            height: 84px;
+        }
+
+        .foot-cont {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+        }
 }
