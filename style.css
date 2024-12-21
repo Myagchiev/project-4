@@ -380,6 +380,12 @@ h3 {
     justify-content: center;
   }
   
+
+  .parent2 {
+    display: none;
+    padding: 32px 0px;
+  }
+
   .card-grid{
     display: inline-flex;
     grid-column-gap: 30px;
