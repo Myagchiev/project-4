@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Document</title>
 </head>
 <body>
@@ -65,7 +66,7 @@
     <main>
         <section class="white-theme">
             <div class="container">
-                    <div id="labor" class="labor">
+                    <div id="labor" class="labor" data-aos="fade-up-right">
                         <div class="item1"> </div>
                         <div class="item2"> <img src="./labor/Rectangle 5.png" alt="картинка"></div>
                         <div class="item3"> <img src="./labor/Rectangle 4.png" alt="картинка"></div>
@@ -80,7 +81,7 @@
         </section>
         <section class="back-theme">
             <div class="container">
-                    <div id="offer" class="offer">
+                    <div id="offer" class="offer" data-aos="fade-up-left">
                         <div class="div1"><img src="./offer/Rectangle 8.png" alt="фотка"> </div>
                         <div class="div2"><img src="./offer/Rectangle 9.png" alt="фотка"> </div>
                         <div class="div3"><img src="./offer/Rectangle 10.png" alt="фотка"> </div>
@@ -119,7 +120,9 @@
         </section>
         <section class="white-theme">
             <div class="container">
-                <div id="popular" class="popular">
+                <div id="popular" class="popular" data-aos="fade-right"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine">
                     <p id="title" class="title">по версии отдыхающих</p>
                     <h2>Популярные направления</h2>
                     <div class="card-grid">
@@ -168,9 +171,9 @@
                       </div>
                       <div class="parent2">
                         <div class="div11"> </div>
-                        <div class="div22"><img src="./popular/фоновое изображение.png" alt="img"> </div>
-                        <div class="div33"><img src="./popular/фоновое изображение (1).png" alt="img"> </div>
-                        <div class="div44"> <img src="./popular/фоновое изображение (2).png" alt="img"></div>
+                        <div class="div22"><img src="./popular/popular_tour.png" alt="img"></div>
+                        <div class="div33"><img src="./popular/popular_tour2.png" alt="img"></div>
+                        <div class="div44"> <img src="./popular/popular_tour3.png" alt="img"></div>
                         </div>
                       <button class="home-btn">Рейтинг направлений</button>
                 </div>
@@ -178,7 +181,7 @@
         </section>
         <section class="back-theme">
             <div class="container">
-                <div id="blog" class="blog-parent">
+                <div id="blog" class="blog-parent" data-aos="zoom-in-up">
                     <p class="title">делимся впечатлениями</p>
                     <h2>Блог о путешествиях</h2>
                     <div class="blog">
@@ -232,7 +235,9 @@
                 <div id="impressions" class="impressions">
                     <p class="title">фото-отчет</p>
                     <h2>Делимся впечатлениями</h2>
-                    <div class="parent">
+                    <div class="parent" data-aos="fade-down"
+                    data-aos-easing="linear"
+                    data-aos-duration="1500">
                         <div class="photo1"> <img src="./impressions/Rectangle 20.png" alt="фото"></div>
                         <div class="photo2"> <img src="./impressions/Rectangle 24.png" alt="фото"></div>
                         <div class="photo3"> <img src="./impressions/Rectangle 23.png" alt="фото"></div>
@@ -243,7 +248,9 @@
                         <button id="mobile-btn" class="home-btn">Наш pinterest</button>
                 </div>
             </div>
-            <div id="footer" class="mail">
+            <div id="footer" class="mail" data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000">
                 <div class="mail-div">
                     <p class="title">актуально</p>
                     <h4>Получайте полезные рассылки о путешествиях</h4>
@@ -262,7 +269,8 @@
         </section>
         <section class="dark">
             <div class="container">
-                <div class="links">
+                <div class="links" data-aos="fade-up"
+                data-aos-duration="3000">
                     <div>
                         <div>
                             <p class="foot-title">Компания «РумТибет»</p>
@@ -308,6 +316,7 @@
             </div>
         </div>
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="./main.js"></script>
 </body>
 </html>

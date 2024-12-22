@@ -382,8 +382,10 @@ h3 {
   
 
   .parent2 {
-    display: none;
     padding: 32px 0px;
+    display: flex;
+    justify-content: space-around;
+    display: none;
   }
 
   .card-grid{

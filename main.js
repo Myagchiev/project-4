@@ -21,3 +21,6 @@ navlink.forEach(link => {
         }
     });
 });
+
+
+AOS.init();
