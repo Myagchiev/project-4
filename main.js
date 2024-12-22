@@ -9,3 +9,15 @@ navBtn.onclick = () => {
         navBtnImg.src = "./home/nav-open.svg";
     }
 }
+
+
+const navlink = document.querySelectorAll('a[href^="#"]');
+
+navlink.forEach(link => {
+    link.addEventListener('click', function(event) {
+        const menu = document.querySelector('.nav');
+        if (menu.classList.contains('open')) {
+            menu.classList.remove('open');
+        }
+    });
+});
