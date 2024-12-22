@@ -619,7 +619,7 @@ h3 {
 
     .impressions {
         text-align: center;
-        padding-bottom: 198px;
+        padding-bottom: 170px;
 }
 
 .impressions > p {
@@ -642,6 +642,47 @@ h3 {
         .photo4 { grid-area: 1 / 3 / 2 / 4; }
         .photo5 { grid-area: 1 / 4 / 2 / 5; }
         .photo6 { grid-area: 2 / 4 / 3 / 5; }
+
+
+        .photo1,
+        .photo2,
+        .photo3,
+        .photo4,
+        .photo5,
+        .photo6 {
+            transition: 0.3s ease-in-out;
+        }
+        .photo1 img,
+        .photo2 img,
+        .photo3 img,
+        .photo4 img,
+        .photo5 img,
+        .photo6 img {
+            transition: 0.3s ease-in-out;
+        }
+
+        .photo1 img:active,
+        .photo2 img:active,
+        .photo3 img:active,
+        .photo4 img:active,
+        .photo5 img:active,
+        .photo6 img:active {
+            transition: 0.3s ease-in-out;
+            transform: scale(1.2);
+        }
+
+
+        .photo1:hover,
+        .photo2:hover,
+        .photo3:hover,
+        .photo4:hover,
+        .photo5:hover,
+        .photo6:hover {
+            transition: 0.3s ease-in-out;
+            transform: scale(1.01);
+            cursor:zoom-in ;
+        }
+
 
         .theme {
             position: relative;

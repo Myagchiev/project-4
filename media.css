@@ -11,7 +11,7 @@
     }
 
     .home {
-        padding: 20px 16px 0px;
+        padding: 15px 16px 0px;
     }
 
     .nav-button {
@@ -39,10 +39,10 @@
     right: 0;
     background-color: #1A3E3E;
     z-index: 1;
-    font-family: Nurito Sans, sans-serif;
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 18px;
+    font-family: Nunito Sans, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
     color: white;
     }
     .open li {
@@ -112,6 +112,10 @@ h1 {
 
         .item3 img {
             width: 100%;
+        }
+
+        .item4 > .text {
+            padding-right: 0px;
         }
 
         .home-btn {
@@ -241,7 +245,7 @@ h1 {
             .div22 img,
             .div33 img,
             .div44 img {
-                width: 96%;
+                width: 90%;
                 height: auto;
                 gap: 10px;
             }
@@ -273,7 +277,7 @@ h1 {
             grid-template-rows: repeat(2, 1fr);
             grid-column-gap: 10px;
             grid-row-gap: 0px;
-            padding: 0px;
+            padding: 0px 16px;
             margin: 32px 0px;
             overflow: scroll;
             }
@@ -339,6 +343,8 @@ h1 {
         grid-template-rows: 1fr;
         grid-column-gap: 10px;
         grid-row-gap: 0px;
+        padding-left: 16px;
+        padding-right: 16px;
         overflow: scroll;
         }
 
